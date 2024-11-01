@@ -5,7 +5,7 @@
 
 This repository provides the dataset and code for the following paper:
 
-**Delving into High-Quality Synthetic Face Occlusion Segmentation Datasets**  
+    **Delving into High-Quality Synthetic Face Occlusion Segmentation Datasets**  
 Kenny T. R. Voo, [Liming Jiang](https://liming-jiang.com/) and [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/)  
 In CVPRW 2022.  
 [**Paper**](https://arxiv.org/abs/2205.06218) | [**Dataset**](https://drive.google.com/drive/folders/15nZETWlGMdcKY6aHbchRsWkUI42KTNs5?usp=sharing) 
@@ -16,6 +16,12 @@ In CVPRW 2022.
 - [06/2022] The code of NatOcc and RandOcc are released.
 - [04/2022] The RealOcc and RealOcc-Wild datasets are released. 
 - [04/2022] This paper is accepted by **CVPRW 2022**.
+# KOSMOS Files explained
+
+Run main to start creating augmentations
+
+[mask_analisis.py](mask_analisis.py) serves to analise the percentage of face being covered
+[new_oclusion_analisi.py](new_oclusion_analisi.py) This makes a more general analisis of overall occclusions
 
 
 ## Installation
